@@ -1,0 +1,11 @@
+**/node_modules
+**/dist
+**/.temp
+**/.env
+**/.env.*
+!**/.env.example
+airi-docs
+.git
+.worktrees
+**/.turbo
+.vishot

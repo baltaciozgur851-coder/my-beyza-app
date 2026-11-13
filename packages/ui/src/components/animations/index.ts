@@ -1,0 +1,12 @@
+export { default as AnimatedContent, type AnimatedContentProps } from './animated-content.vue'
+export { default as AnimatedHeight } from './animated-height.vue'
+export { default as TransitionBidirectional } from './transition-bidirectional.vue'
+export {
+  /**
+   * @deprecated Use TransitionBidirectional instead
+   */
+  default as BidirectionalTransition,
+} from './transition-bidirectional.vue'
+export { default as TransitionBud } from './transition-bud.vue'
+export { default as TransitionHorizontal } from './transition-horizontal.vue'
+export { default as TransitionVertical } from './transition-vertical.vue'
